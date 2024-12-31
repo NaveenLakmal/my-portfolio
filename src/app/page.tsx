@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import WhatIDo from "./components/WhatIDo";
 import CreativeWorks from "./components/CreativeWorks";
+import Contact from "./components/Contact";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
         <About/>
         <WhatIDo></WhatIDo>
         <CreativeWorks></CreativeWorks>
+        <Contact></Contact>
       </main>
     </div>
   );
