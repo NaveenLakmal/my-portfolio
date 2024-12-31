@@ -6,7 +6,7 @@ import Button from './Button';
 
 const Hero = () => {
     return (
-        <div className='relative h-screen bg-cover bg-center bg-fixed flex items-center'>
+        <div className=' h-screen bg-cover bg-center bg-fixed flex items-center '>
             <Image src="/baground.jpg" alt="Background" fill className="object-cover z-[-1]" priority />
             <div className="container mx-auto px-4 ">
                 <div className="max-w-[450px] text-white flex flex-col gap-[40px] " >
@@ -16,7 +16,7 @@ const Hero = () => {
                        Fullstack Developer
 
                     </div>
-                    <div className='bg-[#ff4d41] h-[2px] w-[40px]'></div>
+                    <div className='bg-[#ffffff] h-[2px] w-[40px]'></div>
                     <div>
                         <p>In a Professional context it often happens that private clients corder a publication  to be made.</p>
                         <Button link="#" text="learn More"></Button>

@@ -7,14 +7,14 @@ const Contact = () => {
             <Heading  title='Contact Us' />
             <form className='flex flex-col gap-8 lg:px-32'>
                 <div className="grid grid-cols-1 sm:grid-cols-2  gap-8">
-                    <input type="text" placeholder='Name' className='contactUsInput' required />
-                    <input type="email" placeholder='email' className='contactUsInput' required />
+                    <input type="text" placeholder='Name' className='contactUsInput bg-[#414657]' required />
+                    <input type="email" placeholder='email' className='contactUsInput bg-[#414657]' required />
                 </div>
                 <div>
-                    <input type="text" placeholder='Subject' className='contactUsInput' required />
+                    <input type="text" placeholder='Subject' className='contactUsInput bg-[#414657]' required />
                 </div>
 
-                <textarea rows='6' placeholder='Message' className='contactUsInput' required></textarea>
+                <textarea rows='6' placeholder='Message' className='contactUsInput bg-[#414657]' required></textarea>
 
                 <div>
                     <button type='submit' className='btn '>Send Message</button>

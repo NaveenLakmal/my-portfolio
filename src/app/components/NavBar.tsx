@@ -4,17 +4,17 @@ import { FiMenu } from "react-icons/fi";
 
 function NavBar() {
     return (
-        <div className='bg-white fixed top-0 w-[100%] z-10'>
+        <div className='bg-[#181c30] fixed top-0 w-[100%]   bg-opacity-30 backdrop-blur-md p-1 '>
             <div className='container mx-auto flex justify-between items-center py-4 px-4'>
-                <div className="text-[24px]">Hello NavBar</div>
-                <div className="hidden md:flex gap-6">
-                    <a href="/" className='hover:text-[#ff4d41]'>Home</a>
-                    <a href="/" className='hover:text-[#ff4d41]'>About</a>
-                    <a href="/" className='hover:text-[#ff4d41]'>Portfolio</a>
-                    <a href="/" className='hover:text-[#ff4d41]'>Blog</a>
-                    <a href="/" className='hover:text-[#ff4d41]'>Contact</a>
+                <div className="text-[26px] font-bold text-[#ffffff]">👾N Croft</div>
+                <div className="hidden md:flex gap-6 text-[18px]">
+                    <a href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Home</a>
+                    <a href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>About</a>
+                    <a href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Portfolio</a>
+                    <a href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Blog</a>
+                    <a href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Contact</a>
                 </div>
-                <a href="#" className='hidden md:flex border border-[#ff4d41] px-4 py-1.5 text-[#ff4d41] rounded-[5px] items-center gap-2 hover:bg-[#ff4d41] hover:text-white transition duration-200'>Download CV <FaDownload/> </a>
+                <a href="#" className='hidden md:flex border border-[#414657] px-4 py-1.5 text-[#414657] rounded-[5px] items-center gap-2 hover:bg-[#4f6cff] hover:text-white transition duration-200'>Download CV <FaDownload/> </a>
             
              <div className="md:hidden text-[24px]" ><FiMenu/></div>
              </div>
