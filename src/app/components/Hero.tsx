@@ -25,9 +25,9 @@ const Hero = () => {
                     </div>
                 </div>
 
-                <div className='w-96 h-96 rounded-full bg-blue-500'>
+                {/* <div className='w-96 h-96 rounded-full bg-blue-500'> */}
                     {/* <img className="w-[340px] h-[360px]   border border-green-800" src="/about.jpg" alt="about" /> */}
-                </div>
+                {/* </div> */}
             </div>
         </div>
     )
