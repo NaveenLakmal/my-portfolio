@@ -15,7 +15,7 @@ const Contact = () => {
                     <input type="text" placeholder='Subject' className='contactUsInput bg-[#414657]' required />
                 </div>
 
-                <textarea rows='6' placeholder='Message' className='contactUsInput bg-[#414657]' required></textarea>
+                <textarea rows={6} placeholder='Message' className='contactUsInput bg-[#414657]' required></textarea>
 
                 <div>
                     <button type='submit' className='btn '>Send Message</button>
