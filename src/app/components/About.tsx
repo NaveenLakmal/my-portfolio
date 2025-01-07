@@ -69,7 +69,7 @@ const About = () => {
 
           </div>
           <div className="mt-8 ">
-            <h2 className='font-bold mb-8 text-center sm:text-left text-[#ffffff] text-[22px] '>I'm Naveen and Fullstack Developer</h2>
+            <h2 className='font-bold mb-8 text-center sm:text-left text-[#ffffff] text-[22px] '>I&apos;m Naveen and Fullstack Developer</h2>
             <p className='text-[#414657] text-[18px] text-center sm:text-left'>Hi! My Name is Naveen Lakmal.I am Fullstack Developer,and I'm ver passionate and dedi my work.with 1 years experience as a professional</p>
             <div className="flex justify-center sm:justify-start"><Button link="#" text="Hire Me"></Button></div>
           </div>

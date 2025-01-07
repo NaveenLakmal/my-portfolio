@@ -12,7 +12,7 @@ const Hero = () => {
                 <div className="container mx-auto px-4 border border-gray-300">
                     <div className="max-w-[450px] text-white flex flex-col gap-[40px] " >
                         <div>
-                            <h1 className='text-5xl '>I'm Naveen</h1>
+                            <h1 className='text-5xl '>I&apos;m Naveen</h1>
                             <h4 className='text-2xl mt-3'></h4>
                             Fullstack Developer
 
