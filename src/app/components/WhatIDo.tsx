@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading from './Heading'
-import { RiLightbulbFill, RiLightbulbFlashLine } from 'react-icons/ri'
+import { RiLightbulbFlashLine } from 'react-icons/ri'
 
 const WhatIDo = () => {
     return (

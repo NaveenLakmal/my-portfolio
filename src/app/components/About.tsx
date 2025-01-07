@@ -14,7 +14,7 @@ const About = () => {
       <div className="flex flex-col md:flex-row items-center sm:items-start gap-10 border border-blue-800">
         {/* Image container */}
         <div className="flex-shrink-0  sm:items-center border border-yellow-800 ">
-          <img className="w-[340px] h-[360px]   border border-green-800" src="/about.jpg" alt="about" />
+          <Image className="w-[340px] h-[360px]   border border-green-800" src="/about.jpg" width={500} height={300} alt="about" />
         </div>
 
         {/* Info container */}
