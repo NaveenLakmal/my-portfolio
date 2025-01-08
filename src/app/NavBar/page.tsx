@@ -43,7 +43,7 @@ function page() {
                 <button
                     onClick={handleDownload}
                     className="hidden md:flex border border-[#414657] px-4 py-1.5 text-[#414657] rounded-[5px] items-center gap-2 hover:bg-[#4f6cff] hover:text-white transition duration-200"
-                >Download Cv</button>
+                >Download Cv <FaDownload/></button>
                 {/* <Link  onClick={handleDownload} className='hidden md:flex border border-[#414657] px-4 py-1.5 text-[#414657] rounded-[5px] items-center gap-2 hover:bg-[#4f6cff] hover:text-white transition duration-200'>Download CV <FaDownload/> </Link> */}
 
                 <div className="md:hidden text-[24px]" ><FiMenu /></div>
