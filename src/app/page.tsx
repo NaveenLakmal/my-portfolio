@@ -1,5 +1,4 @@
 
-import NavBar from "./NavBar/page";
 import Hero from "./Hero/page";
 import About from "./About/page";
 import WhatIDo from "./WhatIDo/page";
