@@ -32,7 +32,7 @@ const page = () => {
                 <div className="flex justify-center items-center sm:ml-0 -mt-4 sm:mt-0 ">   
                     <Image
                         className="w-[300px] h-[300px] md:w-[42rem] md:h-[350px] lg:w-[800px] lg:h-[460px] border border-green-800 rounded-full object-cover"
-                        src="/portfolio.jpg"
+                        src="/myphoto.jpg"
                         width={500}
                         height={500}
                         alt="about"
