@@ -7,18 +7,18 @@ import Button from './Button'
 
 const About = () => {
   return (
-    <section className="container mx-auto py-10 px-4 ">
-      <Heading title="About Me"></Heading>
+    <section className="container mx-auto py-16 px-4  ">
+      <div className='mt-16 -mb-12 sm:mb-0 sm:mt-0'><Heading  title="About Me"></Heading></div>
 
       {/* Main content container */}
-      <div className="flex flex-col md:flex-row items-center sm:items-start gap-10 border border-blue-800">
+      <div className="mt-8 sm:mt-0 flex flex-col md:flex-row items-center sm:items-start gap-10 border border-blue-800">
         {/* Image container */}
         <div className="flex-shrink-0  sm:items-center border border-yellow-800 ">
           <Image className="w-[340px] h-[360px]   border border-green-800" src="/about.jpg" width={500} height={300} alt="about" />
         </div>
 
         {/* Info container */}
-        <div className="flex-grow border border-blue-800">
+        <div className=" flex-grow border border-blue-800">
           {/* Grid container for info */}
           <div className="grid grid-cols-[auto,] gap-x-8 gap-y-4 justify-center sm:justify-start">
             {/* Row 1 */}
