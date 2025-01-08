@@ -1,10 +1,10 @@
 import React from 'react'
-import Heading from './Heading'
+import Heading from '../components/Heading'
 import { RiLightbulbFlashLine } from 'react-icons/ri'
 
-const WhatIDo = () => {
+const page = () => {
     return (
-        <section className='container mx-auto py-10 px-4 border border-blue-800'>
+        <section className='container mx-auto py-10 px-4 border border-blue-800 '>
             <Heading title="What I Do"></Heading>
 
             <div className=" border border-blue-800 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 justify-items-center">
@@ -37,4 +37,4 @@ const WhatIDo = () => {
     )
 }
 
-export default WhatIDo
+export default page

@@ -1,17 +1,17 @@
 
-import NavBar from "./components/NavBar";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import WhatIDo from "./components/WhatIDo";
-import CreativeWorks from "./components/CreativeWorks";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import NavBar from "./NavBar/page";
+import Hero from "./Hero/page";
+import About from "./About/page";
+import WhatIDo from "./WhatIDo/page";
+import CreativeWorks from "./CreativeWorks/page";
+import Contact from "./Contact/page";
+import Footer from "./Footer/page";
 
 
 export default function Home() {
   return (
     <div>
-      <header><NavBar></NavBar></header>
+      <header></header>
       <Hero ></Hero>
       <main className="bg-[#181c30]">
         
