@@ -36,7 +36,7 @@ function page() {
                 <div className="hidden md:flex gap-6 text-[18px]">
                     <Link href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Home</Link>
                     <Link href="/About" className='hover:text-[#4f6cff] text-[#414657] font-bold'>About</Link>
-                    <Link href="/" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Portfolio</Link>
+                    <Link href="/CreativeWorks" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Portfolio</Link>
                     <Link href="/WhatIDo" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Blog</Link>
                     <Link href="/Contact" className='hover:text-[#4f6cff] text-[#414657] font-bold'>Contact</Link>
                 </div>
