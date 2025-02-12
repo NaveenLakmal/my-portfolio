@@ -7,7 +7,7 @@ import Button from '../components/Button';
 
 const page = () => {
     return (
-        <div className=' h-screen bg-cover bg-center bg-fixed flex items-center bg-[#181c30] '>
+        <div className='min-h-screen bg-cover bg-center bg-fixed flex items-center bg-[#181c30]'>
             {/* <Image src="/baground.jpg" alt="Background" fill className="object-cover z-[-1]" priority /> */}
 
             <div className=' flex flex-col sm:flex-row sm:gap-8 border border-lime-700 mt-40 sm:mt-20   '>

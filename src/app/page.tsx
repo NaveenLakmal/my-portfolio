@@ -11,15 +11,14 @@ export default function Home() {
   return (
     <div>
       <header></header>
-      <Hero ></Hero>
-      <main className="bg-[#181c30]">
-        
+      <Hero></Hero>
+      {/* Add mt-[70px] to create space for the fixed navbar */}
+      <main className="bg-[#181c30] mt-[70px]"> 
         <About/>
         <WhatIDo></WhatIDo>
         <CreativeWorks></CreativeWorks>
         <Contact></Contact>
         <Footer></Footer>
-        
       </main>
     </div>
   );

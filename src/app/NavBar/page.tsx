@@ -30,7 +30,7 @@ function page() {
 
 
     return (
-        <div className='bg-[#181c30] fixed top-0 w-[100%]   bg-opacity-30 backdrop-blur-md p-1 '>
+        <div className='bg-[#181c30] fixed top-0 w-[100%] h-[70px]  bg-opacity-30 backdrop-blur-md p-1 '>
             <div className='container mx-auto flex justify-between items-center py-4 px-4'>
                 <div className="text-[22px] font-bold text-[#ffffff]"><Link href="/">👾N Croft</Link></div>
                 <div className="hidden md:flex gap-6 text-[18px]">

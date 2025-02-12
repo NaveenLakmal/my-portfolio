@@ -14,7 +14,7 @@ const page = () => {
       <div className="mt-8 sm:mt-0 flex flex-col md:flex-row items-center sm:items-start gap-10 border border-blue-800">
         {/* Image container */}
         <div className="flex-shrink-0  sm:items-center border border-yellow-800 ">
-          <Image className="w-[340px] h-[360px]   border border-green-800" src="/about.jpg" width={500} height={300} alt="about" />
+          <Image className="w-[340px] h-[360px]   border border-green-800" src="/aboutmy.jpg" width={500} height={300} alt="about" />
         </div>
 
         {/* Info container */}
@@ -35,7 +35,7 @@ const page = () => {
               <AiOutlineGift className=" text-[#4f6cff]" size={22} />
               <span className="font-medium text-[#ffffff]">Study</span>
               <div className="flex items-center ml-5 text-[#ffffff]">:</div>
-              <div className="flex items-center ml-5 text-[#ffffff]">collage</div>
+              <div className="flex items-center ml-5 text-[#ffffff]">University Of Moratuwa</div>
             </div>
 
 
@@ -53,7 +53,7 @@ const page = () => {
               <AiOutlineGift className=" text-[#4f6cff]" size={22} />
               <span className="font-medium text-[#ffffff]">Location</span>
               <div className="flex items-center text-[#ffffff]">:</div>
-              <div className="flex items-center text-[#ffffff]">collage</div>
+              <div className="flex items-center text-[#ffffff]">Panadura</div>
             </div>
 
 
