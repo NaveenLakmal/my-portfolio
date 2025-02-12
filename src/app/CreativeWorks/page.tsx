@@ -10,22 +10,22 @@ const page = () => {
       <div className="">
 
         <div className="w-[300px] h-[200px]">
-          <img src="/sample01.jpg" alt="" />
+          <Image  src="/sample01.jpg" alt="sample" width={500} height={300}></Image>
           <div className="">Project title</div>
         </div>
 
         <div className="w-[300px] h-[200px]">
-          <img src="/sample02.jpg" alt="" />
+          <Image  src="/sample02.jpg" alt="sample" width={500} height={300}></Image>
           <div className="">Project title</div>
         </div>
 
         <div className="w-[300px] h-[300px]">
-          <img src="/sample03.jpg" alt="" />
+          <Image  src="/sample03.jpg" alt="sample" width={500} height={300}></Image>
           <div className="">Project title</div>
         </div>
 
         <div className="w-[300px] h-[300px]">
-          <img src="/sample04.jpg" alt="" />
+          <Image  src="/sample04.jpg" alt="sample" width={500} height={300}></Image>
           <div className="">Project title</div>
         </div>
 
